@@ -12,13 +12,13 @@
 [providers.docker]
 
 [certificatesResolvers.cloudflare.acme]
-  email = "admin@your_domain.com"
+  email = "management@yskylinkhosting.com"
   [certificatesResolvers.cloudflare.acme.dnsChallenge]
     provider = "cloudflare"
     delayBeforeCheck = 0
 
 [certificatesResolvers.letsencrypt.acme]
-  email = "admin@your_domain.com"
+  email = "management@yskylinkhosting.com"
   storage = "acme.json"
   [certificatesResolvers.letsencrypt.acme.httpChallenge]
     entryPoint = "web"
